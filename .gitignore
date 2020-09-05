@@ -10,7 +10,8 @@
 
 # production
 /build
-
+folderico-red.ico
+desktop.ini
 # misc
 .DS_Store
 .env.local
