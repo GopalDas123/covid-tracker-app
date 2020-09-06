@@ -54,7 +54,7 @@ export default function GlobalData() {
               {loading}{" "}
             </Typography>
             <Typography variant="subtitle2" gutterBottom>
-              GLOBAL
+              <b>GLOBAL</b>
             </Typography>
           </div>
         </Paper>
@@ -123,7 +123,7 @@ export default function GlobalData() {
             ></NumberFormat>
           </Typography>
           <Typography variant="subtitle2" gutterBottom>
-            GLOBAL
+          GLOBAL
           </Typography>
         </div>
       </Paper>
