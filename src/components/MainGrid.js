@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import GlobalData from "./GlobalData";
-import CountryData from "./CountryData";
+// import CountryData from "./CountryData";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -30,7 +30,7 @@ export default function MainGrid() {
         </Grid>
         <Grid item xs={12} sm={8}>
           <Paper className={classes.paper}>
-                {/* <CountryData/> */}
+                <span >Developed By <a style={{color:'red',cursor:'pointer'}} href="https://github.com/GopalDas123">GOPAL DAS</a></span>
             </Paper>
         </Grid>
       </Grid>
