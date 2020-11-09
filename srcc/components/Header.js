@@ -25,7 +25,7 @@ export default function Header() {
         <Toolbar>
           
           <Typography variant="h6" className={classes.title}>
-            COVID-19 TRACKER
+            (COVID-19) TRACKER
           </Typography>
         </Toolbar>
       </AppBar>
